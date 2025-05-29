@@ -1,0 +1,22 @@
+
+{
+  "name": "@yourorg/checkout-widget",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "author": "Your Team",
+  "license": "MIT",
+  "description": "A configurable Stripe-style checkout widget with Firebase and Email integration."
+}
